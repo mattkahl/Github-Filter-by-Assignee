@@ -1,0 +1,16 @@
+{
+    "name": "Github Filter by Assignee",
+    "version": "0.9",
+    "description": "Filter a Github repository's issues by assignee.",
+    "icons": { "256": "filter.png" },
+    "homepage_url": "https://github.com/mattkahl/Github-Filter-by-Assignee",
+    "permissions": [
+        "tabs", "https://github.com/*"
+    ],
+    "content_scripts": [
+    {
+        "matches": ["https://github.com/*"],
+        "js": ["jquery-1.8.2.min.js","filter_by_assignee.js"]
+    }],
+    "manifest_version": 2
+}
