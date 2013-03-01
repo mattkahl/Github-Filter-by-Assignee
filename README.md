@@ -6,4 +6,4 @@ Currently only works on an individual repository's issues page.
 ##Chrome Web Store
 Install the extension from the store here:
 
-[Github Filter by Assignee](https://chrome.google.com/webstore/detail/ficgcancgfplpbajcljhkacpdgnnlhab)
+[Github Filter by Assignee](https://chrome.google.com/webstore/detail/github-filter-by-assignee/dhgfemdcamfkgfmnncappbccgmdblbim)
