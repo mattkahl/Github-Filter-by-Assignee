@@ -1,6 +1,6 @@
 {
     "name": "Github Filter by Assignee",
-    "version": "0.9",
+    "version": "0.9.1",
     "description": "Filter a Github repository's issues by assignee.",
     "icons": { "256": "filter.png" },
     "homepage_url": "https://github.com/mattkahl/Github-Filter-by-Assignee",
@@ -9,9 +9,10 @@
     ],
     "content_scripts": [
     {
-        "matches": ["https://github.com/*"],
-        "js": ["run.js"]
+        "matches": ["*://github.com/*/issues*"],
+        "js": ["run.js"],
+        "run_at": "document_end"
     }],
-    "manifest_version": 2,
+    "manifest_version": 3,
     "web_accessible_resources": [ "filter_by_assignee.js" ]
 }
