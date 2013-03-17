@@ -1,9 +1,13 @@
 #Github Filter by Assignee
-A Google Chrome Extension that allows you to filter your Github issues by assignees (other than yourself).
+A browser extension that allows you to filter your Github issues by assignees (other than yourself).
 
 Currently only works on an individual repository's issues page.
 
-##Chrome Web Store
-Install the extension from the store here:
+##Available on
 
-[Github Filter by Assignee](https://chrome.google.com/webstore/detail/github-filter-by-assignee/dhgfemdcamfkgfmnncappbccgmdblbim)
+- [Chrome](https://chrome.google.com/webstore/detail/github-filter-by-assignee/dhgfemdcamfkgfmnncappbccgmdblbim)
+- [Safari](http://ikahl.com/labs/extensions/Github%20Filter%20By%20Assignee.safariextz) *(Right-click and "Save As..." to download)*
+
+## License
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+&copy; Matt Kahl

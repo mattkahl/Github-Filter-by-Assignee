@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Matt Kahl</string>
+	<key>Builder Version</key>
+	<string>8536.26.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>Github Filter By Assignee</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.mattkahl.githubfilterbyassignee</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>run.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://github.com/*/issues*</string>
+			<string>https://github.com/*/issues*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Allows you to filter your Github issues by assignees (other than yourself).</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>github.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/mattkahl/Github-Filter-by-Assignee</string>
+</dict>
+</plist>
