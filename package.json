@@ -1,0 +1,16 @@
+{
+    "author": "Matt Kahl <matt@mattkahl.com>",
+    "name": "filter_by_assignee",
+    "description" : "Filter a Github repository's issues by assignee.",
+    "version": "0.9.2",
+    "homepage": "https://github.com/mattkahl/Github-Filter-by-Assignee",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mattkahl/Github-Filter-by-Assignee"
+    },
+    "main": "filter_by_assignee.coffee",
+    "devDependencies": {
+        "coffee-script": "1.5.0",
+        "uglify-js": "*"
+    }
+}

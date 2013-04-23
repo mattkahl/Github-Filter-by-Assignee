@@ -19,7 +19,7 @@ addAssigneesMenu = ->
         # Fetch the ul of sidebar filters
         $sidebarFilters = $('.issues-list-sidebar').find('ul.filter-list').first()
         # Fetch the hidden inputs containing all of the possible assignees
-        $assigneeInputs = $('form.js-assignee-picker-form').first().find('input[name="assignment[assignee]"]')
+        $assigneeInputs = $('.js-assignee-picker').first().find('[name="[assignee]"]')
         # Fetch the "Assigned to you" anchor
         $assignedToYou = $sidebarFilters.find('a:contains("Assigned to you")')
 
